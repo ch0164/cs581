@@ -1,7 +1,7 @@
 # Filename:
-# Author:
+# Author: Christian Hall
+# Date: 09/28/2022
 # Description:
-# Date:
 
 # Type Hinting Imports
 from typing import Any, List
@@ -27,7 +27,7 @@ def heappush(heap: List[Any], item: Any) -> None:
     :return: None.
     """
     heap.append(item)
-    sift_up(heap, len(heap) - 1)
+    sift_up(heap, 0, len(heap) - 1)
 
 
 def heappop(heap: List[Any]) -> Any:
@@ -92,32 +92,31 @@ def get_parent_index(index: int) -> int:
     return (index - 1) // 2
 
 
-def sift_up(heap: List[Any], child_index: int, start_index: int = 0) -> None:
+def sift_up(heap: List[Any], start_index: int, current_index: int) -> None:
     """
     Restore the heap by swapping elements up the heap.
 
     :param heap: The heap object.
-    :param child_index: The index of the current node to swap.
-    :param start_index: By default, the index of the root node;
-                        used to stop swapping.
+    :param start_index: The index of the node to start swapping.
+    :param current_index: The current node index to swap.
     :return: None.
     """
-    child_element = heap[child_index]
-    parent_index = get_parent_index(child_index)
+    current_element = heap[current_index]
+    parent_index = get_parent_index(current_index)
     parent_element = heap[parent_index]
 
     # Continue to swap elements in the heap until it is restored.
-    while child_index > start_index and child_element < parent_element:
-        heap[child_index] = parent_element
-        child_index = parent_index
-        parent_index = get_parent_index(child_index)
+    while current_index > start_index and current_element < parent_element:
+        heap[current_index] = parent_element
+        current_index = parent_index
+        parent_index = get_parent_index(current_index)
         parent_element = heap[parent_index]
 
     # Now, place the new element of the heap at its proper location.
-    heap[child_index] = child_element
+    heap[current_index] = current_element
 
 
-def sift_down(heap: List[Any], start_index: int = 0) -> None:
+def sift_down(heap: List[Any], start_index: int) -> None:
     """
     Restore the heap by swapping elements down the heap.
 

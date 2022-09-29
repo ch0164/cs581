@@ -1,11 +1,15 @@
-# Filename:
-# Author:
-# Description:
-# Date:
+# Filename: future_event_list.py
+# Author: Christian Hall
+# Date: 09/28/2022
+# Description: This file contains the logic implementing the Future Event List
+#              data structure.
+#              Depending on the value of HEAP_IMPLEMENTATION, the FEL will
+#              either use the built-in heapq Python module or the min_heap.py
+#              module (which is not built-in).
 
 # Python Imports
+import numpy as np
 import sys
-from typing import Union
 
 # Custom Imports
 from source.events import *
@@ -50,9 +54,14 @@ def delete(event: Event) -> None:
     :param event: The Event to be deleted.
     :return: None.
     """
+    global fel
+
+    # If the FEL is empty, exit prematurely.
     if not fel:
         return
-    fel.remove(event)
+
+    # Filter out the Event to be deleted and restore the list as a heap.
+    fel = list(filter(lambda e: e not in [event], fel))
     hq.heapify(fel)
 
 
@@ -84,6 +93,10 @@ def clear() -> None:
     """
     global fel
     fel = []
+
+
+def get_fel():
+    return hq.nsmallest(len(fel), fel)
 
 
 def display(output_file="") -> None:
