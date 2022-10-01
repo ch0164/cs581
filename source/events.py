@@ -7,7 +7,7 @@
 from typing import Union
 
 # Custom Imports
-from source.constants import *
+from source.constants import ARRIVAL_EVENT, DEPARTURE_EVENT, END_EVENT
 
 
 class Event:

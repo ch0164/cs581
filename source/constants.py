@@ -10,7 +10,8 @@ import os
 # Directory Constants
 # ------------------------------------------------------------------------------
 SOURCE_DIRECTORY = os.getcwd() + "/"
-ROOT_DIRECTORY = os.path.abspath(os.path.join(SOURCE_DIRECTORY, os.pardir))
+ROOT_DIRECTORY = os.path.abspath(os.path.join(SOURCE_DIRECTORY, os.pardir)) + \
+                 "/"
 OUTPUT_DIRECTORY = ROOT_DIRECTORY + "output/"
 
 # ------------------------------------------------------------------------------
@@ -29,5 +30,4 @@ PYTHON_HEAP = "heapq Min Heap"
 # ------------------------------------------------------------------------------
 # Test Constants
 # ------------------------------------------------------------------------------
-PASS_LOG_MESSAGE = lambda test: f"✔ {test}"
-FAIL_LOG_MESSAGE = lambda test: f"❌ {test}"
+LOG_FILE = lambda name: f"{name}_log.txt"

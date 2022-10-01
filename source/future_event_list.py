@@ -7,11 +7,9 @@
 #              either use the built-in heapq Python module or the min_heap.py
 #              module (which is not built-in).
 
-# Python Imports
-import numpy as np
-import sys
 
 # Custom Imports
+from source.constants import CUSTOM_HEAP, PYTHON_HEAP
 from source.events import *
 
 # Check which min-heap implementation to use; default is to use custom one.
@@ -19,6 +17,7 @@ import source.flags
 if source.flags.HEAP_IMPLEMENTATION == PYTHON_HEAP:
     import heapq as hq
 else:
+    source.flags.HEAP_IMPLEMENTATION = CUSTOM_HEAP
     import source.min_heap as hq
 print(f"Using {source.flags.HEAP_IMPLEMENTATION}")
 
@@ -95,26 +94,8 @@ def clear() -> None:
     fel = []
 
 
-def get_fel():
-    return hq.nsmallest(len(fel), fel)
-
-
-def display(output_file="") -> None:
-    """
-    Write the contents of the FEL to the screen or an output file.
-
-    :param output_file: If the string is empty, defaults to printing to console.
-                        Else, the output will be generated to the output file
-                        specified.
-    :return: None.
-    """
-    stdout = None
-    if output_file:
-        stdout = sys.stdout
-        sys.stdout = open(output_file, "w")
-
-    print(hq.nsmallest(len(fel), fel))
-
-    if output_file:
-        sys.stdout.close()
-        sys.stdout = stdout
+def print_fel(logger) -> None:
+    logger.info("FEL Begin")
+    for event in hq.nsmallest(len(fel), fel):
+        logger.info(f"event={event}")
+    logger.info("FEL End")

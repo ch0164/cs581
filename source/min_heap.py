@@ -1,9 +1,10 @@
-# Filename:
+# Filename: min_heap.py
 # Author: Christian Hall
 # Date: 09/28/2022
-# Description:
+# Description: This file contains functions needed to implement a min-heap
+#              data structure.
 
-# Type Hinting Imports
+# Python Imports
 from typing import Any, List
 
 # These are the functions needed to implement the FEL.
@@ -138,7 +139,8 @@ def sift_down(heap: List[Any], start_index: int) -> None:
             if right_child_index < end_index else None
 
         # Swap the child index with the smaller of the two children.
-        if right_child_index < end_index and right_child_element < child_element:
+        if right_child_index < end_index and \
+                right_child_element < child_element:
             child_index = right_child_index
 
         # Swap with the smaller child and go further down the heap.
