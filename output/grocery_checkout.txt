@@ -1,0 +1,571 @@
+Single-queue, single-server - Grocery Checkout
+trial= 1
+	Execution parameters
+		Mean interarrival time             	4.5 minutes
+		Mean service time                  	3.2 minutes
+		Std dev service time               	0.6 minutes
+		Number of customers served         	1000
+
+	Calculated statistics
+		Server utilization                 	0.7298
+		Maximum queue length               	9
+		Mean response time                 	7.4164 minutes
+		Long response ratio                	0.6360
+		Simulation run duration            	4408.1071 minutes
+		Number of arrivals                 	1002
+		Number of departures               	1000
+		Mean interarrival time             	4.4067 minutes
+		Mean service time                  	3.2174 minutes
+
+Single-queue, single-server - Grocery Checkout
+trial= 2
+	Execution parameters
+		Mean interarrival time             	4.5 minutes
+		Mean service time                  	3.2 minutes
+		Std dev service time               	0.6 minutes
+		Number of customers served         	1000
+
+	Calculated statistics
+		Server utilization                 	0.7117
+		Maximum queue length               	10
+		Mean response time                 	7.4540 minutes
+		Long response ratio                	0.5770
+		Simulation run duration            	4540.0877 minutes
+		Number of arrivals                 	1010
+		Number of departures               	1000
+		Mean interarrival time             	4.5065 minutes
+		Mean service time                  	3.2305 minutes
+
+Single-queue, single-server - Grocery Checkout
+trial= 3
+	Execution parameters
+		Mean interarrival time             	4.5 minutes
+		Mean service time                  	3.2 minutes
+		Std dev service time               	0.6 minutes
+		Number of customers served         	1000
+
+	Calculated statistics
+		Server utilization                 	0.7074
+		Maximum queue length               	10
+		Mean response time                 	8.0171 minutes
+		Long response ratio                	0.5460
+		Simulation run duration            	4473.0237 minutes
+		Number of arrivals                 	1001
+		Number of departures               	1000
+		Mean interarrival time             	4.4686 minutes
+		Mean service time                  	3.1642 minutes
+
+Single-queue, single-server - Grocery Checkout
+trial= 4
+	Execution parameters
+		Mean interarrival time             	4.5 minutes
+		Mean service time                  	3.2 minutes
+		Std dev service time               	0.6 minutes
+		Number of customers served         	1000
+
+	Calculated statistics
+		Server utilization                 	0.7383
+		Maximum queue length               	11
+		Mean response time                 	7.5620 minutes
+		Long response ratio                	0.5920
+		Simulation run duration            	4376.1737 minutes
+		Number of arrivals                 	1000
+		Number of departures               	1000
+		Mean interarrival time             	4.3770 minutes
+		Mean service time                  	3.2311 minutes
+
+Single-queue, single-server - Grocery Checkout
+trial= 5
+	Execution parameters
+		Mean interarrival time             	4.5 minutes
+		Mean service time                  	3.2 minutes
+		Std dev service time               	0.6 minutes
+		Number of customers served         	1000
+
+	Calculated statistics
+		Server utilization                 	0.7200
+		Maximum queue length               	9
+		Mean response time                 	7.1740 minutes
+		Long response ratio                	0.5770
+		Simulation run duration            	4471.3943 minutes
+		Number of arrivals                 	1000
+		Number of departures               	1000
+		Mean interarrival time             	4.4753 minutes
+		Mean service time                  	3.2192 minutes
+
+Single-queue, single-server - Grocery Checkout
+trial= 6
+	Execution parameters
+		Mean interarrival time             	4.5 minutes
+		Mean service time                  	3.2 minutes
+		Std dev service time               	0.6 minutes
+		Number of customers served         	1000
+
+	Calculated statistics
+		Server utilization                 	0.6877
+		Maximum queue length               	8
+		Mean response time                 	6.7476 minutes
+		Long response ratio                	0.5500
+		Simulation run duration            	4654.4617 minutes
+		Number of arrivals                 	1002
+		Number of departures               	1000
+		Mean interarrival time             	4.6517 minutes
+		Mean service time                  	3.2011 minutes
+
+Single-queue, single-server - Grocery Checkout
+trial= 7
+	Execution parameters
+		Mean interarrival time             	4.5 minutes
+		Mean service time                  	3.2 minutes
+		Std dev service time               	0.6 minutes
+		Number of customers served         	1000
+
+	Calculated statistics
+		Server utilization                 	0.7225
+		Maximum queue length               	9
+		Mean response time                 	6.8886 minutes
+		Long response ratio                	0.5760
+		Simulation run duration            	4389.3590 minutes
+		Number of arrivals                 	1000
+		Number of departures               	1000
+		Mean interarrival time             	4.3901 minutes
+		Mean service time                  	3.1714 minutes
+
+Single-queue, single-server - Grocery Checkout
+trial= 8
+	Execution parameters
+		Mean interarrival time             	4.5 minutes
+		Mean service time                  	3.2 minutes
+		Std dev service time               	0.6 minutes
+		Number of customers served         	1000
+
+	Calculated statistics
+		Server utilization                 	0.6808
+		Maximum queue length               	7
+		Mean response time                 	6.2867 minutes
+		Long response ratio                	0.5440
+		Simulation run duration            	4653.8522 minutes
+		Number of arrivals                 	1005
+		Number of departures               	1000
+		Mean interarrival time             	4.6307 minutes
+		Mean service time                  	3.1692 minutes
+
+Single-queue, single-server - Grocery Checkout
+trial= 9
+	Execution parameters
+		Mean interarrival time             	4.5 minutes
+		Mean service time                  	3.2 minutes
+		Std dev service time               	0.6 minutes
+		Number of customers served         	1000
+
+	Calculated statistics
+		Server utilization                 	0.7495
+		Maximum queue length               	10
+		Mean response time                 	7.5504 minutes
+		Long response ratio                	0.5880
+		Simulation run duration            	4279.2998 minutes
+		Number of arrivals                 	1001
+		Number of departures               	1000
+		Mean interarrival time             	4.2776 minutes
+		Mean service time                  	3.2072 minutes
+
+Single-queue, single-server - Grocery Checkout
+trial= 10
+	Execution parameters
+		Mean interarrival time             	4.5 minutes
+		Mean service time                  	3.2 minutes
+		Std dev service time               	0.6 minutes
+		Number of customers served         	1000
+
+	Calculated statistics
+		Server utilization                 	0.6968
+		Maximum queue length               	9
+		Mean response time                 	6.7177 minutes
+		Long response ratio                	0.5740
+		Simulation run duration            	4615.5921 minutes
+		Number of arrivals                 	1001
+		Number of departures               	1000
+		Mean interarrival time             	4.6141 minutes
+		Mean service time                  	3.2162 minutes
+
+Single-queue, single-server - Grocery Checkout
+trial= 11
+	Execution parameters
+		Mean interarrival time             	4.5 minutes
+		Mean service time                  	3.2 minutes
+		Std dev service time               	0.6 minutes
+		Number of customers served         	1000
+
+	Calculated statistics
+		Server utilization                 	0.7109
+		Maximum queue length               	9
+		Mean response time                 	8.1993 minutes
+		Long response ratio                	0.6060
+		Simulation run duration            	4560.1928 minutes
+		Number of arrivals                 	1000
+		Number of departures               	1000
+		Mean interarrival time             	4.5617 minutes
+		Mean service time                  	3.2417 minutes
+
+Single-queue, single-server - Grocery Checkout
+trial= 12
+	Execution parameters
+		Mean interarrival time             	4.5 minutes
+		Mean service time                  	3.2 minutes
+		Std dev service time               	0.6 minutes
+		Number of customers served         	1000
+
+	Calculated statistics
+		Server utilization                 	0.7073
+		Maximum queue length               	10
+		Mean response time                 	7.9785 minutes
+		Long response ratio                	0.5840
+		Simulation run duration            	4522.4645 minutes
+		Number of arrivals                 	1000
+		Number of departures               	1000
+		Mean interarrival time             	4.5225 minutes
+		Mean service time                  	3.1986 minutes
+
+Single-queue, single-server - Grocery Checkout
+trial= 13
+	Execution parameters
+		Mean interarrival time             	4.5 minutes
+		Mean service time                  	3.2 minutes
+		Std dev service time               	0.6 minutes
+		Number of customers served         	1000
+
+	Calculated statistics
+		Server utilization                 	0.7376
+		Maximum queue length               	7
+		Mean response time                 	7.7846 minutes
+		Long response ratio                	0.6240
+		Simulation run duration            	4381.1027 minutes
+		Number of arrivals                 	1000
+		Number of departures               	1000
+		Mean interarrival time             	4.3890 minutes
+		Mean service time                  	3.2315 minutes
+
+Single-queue, single-server - Grocery Checkout
+trial= 14
+	Execution parameters
+		Mean interarrival time             	4.5 minutes
+		Mean service time                  	3.2 minutes
+		Std dev service time               	0.6 minutes
+		Number of customers served         	1000
+
+	Calculated statistics
+		Server utilization                 	0.7245
+		Maximum queue length               	12
+		Mean response time                 	8.7588 minutes
+		Long response ratio                	0.5880
+		Simulation run duration            	4423.6612 minutes
+		Number of arrivals                 	1000
+		Number of departures               	1000
+		Mean interarrival time             	4.4310 minutes
+		Mean service time                  	3.2048 minutes
+
+Single-queue, single-server - Grocery Checkout
+trial= 15
+	Execution parameters
+		Mean interarrival time             	4.5 minutes
+		Mean service time                  	3.2 minutes
+		Std dev service time               	0.6 minutes
+		Number of customers served         	1000
+
+	Calculated statistics
+		Server utilization                 	0.6862
+		Maximum queue length               	7
+		Mean response time                 	6.7111 minutes
+		Long response ratio                	0.5490
+		Simulation run duration            	4644.1242 minutes
+		Number of arrivals                 	1005
+		Number of departures               	1000
+		Mean interarrival time             	4.6245 minutes
+		Mean service time                  	3.1866 minutes
+
+Single-queue, single-server - Grocery Checkout
+trial= 16
+	Execution parameters
+		Mean interarrival time             	4.5 minutes
+		Mean service time                  	3.2 minutes
+		Std dev service time               	0.6 minutes
+		Number of customers served         	1000
+
+	Calculated statistics
+		Server utilization                 	0.7321
+		Maximum queue length               	9
+		Mean response time                 	6.9298 minutes
+		Long response ratio                	0.5780
+		Simulation run duration            	4367.9079 minutes
+		Number of arrivals                 	1003
+		Number of departures               	1000
+		Mean interarrival time             	4.3686 minutes
+		Mean service time                  	3.1978 minutes
+
+Single-queue, single-server - Grocery Checkout
+trial= 17
+	Execution parameters
+		Mean interarrival time             	4.5 minutes
+		Mean service time                  	3.2 minutes
+		Std dev service time               	0.6 minutes
+		Number of customers served         	1000
+
+	Calculated statistics
+		Server utilization                 	0.6760
+		Maximum queue length               	11
+		Mean response time                 	7.2322 minutes
+		Long response ratio                	0.5750
+		Simulation run duration            	4740.0500 minutes
+		Number of arrivals                 	1000
+		Number of departures               	1000
+		Mean interarrival time             	4.7402 minutes
+		Mean service time                  	3.2043 minutes
+
+Single-queue, single-server - Grocery Checkout
+trial= 18
+	Execution parameters
+		Mean interarrival time             	4.5 minutes
+		Mean service time                  	3.2 minutes
+		Std dev service time               	0.6 minutes
+		Number of customers served         	1000
+
+	Calculated statistics
+		Server utilization                 	0.6723
+		Maximum queue length               	10
+		Mean response time                 	7.0454 minutes
+		Long response ratio                	0.5430
+		Simulation run duration            	4756.6699 minutes
+		Number of arrivals                 	1002
+		Number of departures               	1000
+		Mean interarrival time             	4.7517 minutes
+		Mean service time                  	3.1979 minutes
+
+Single-queue, single-server - Grocery Checkout
+trial= 19
+	Execution parameters
+		Mean interarrival time             	4.5 minutes
+		Mean service time                  	3.2 minutes
+		Std dev service time               	0.6 minutes
+		Number of customers served         	1000
+
+	Calculated statistics
+		Server utilization                 	0.6896
+		Maximum queue length               	10
+		Mean response time                 	7.2405 minutes
+		Long response ratio                	0.5530
+		Simulation run duration            	4653.6817 minutes
+		Number of arrivals                 	1001
+		Number of departures               	1000
+		Mean interarrival time             	4.6502 minutes
+		Mean service time                  	3.2088 minutes
+
+Single-queue, single-server - Grocery Checkout
+trial= 20
+	Execution parameters
+		Mean interarrival time             	4.5 minutes
+		Mean service time                  	3.2 minutes
+		Std dev service time               	0.6 minutes
+		Number of customers served         	1000
+
+	Calculated statistics
+		Server utilization                 	0.7381
+		Maximum queue length               	12
+		Mean response time                 	8.7613 minutes
+		Long response ratio                	0.6110
+		Simulation run duration            	4369.6200 minutes
+		Number of arrivals                 	1000
+		Number of departures               	1000
+		Mean interarrival time             	4.3713 minutes
+		Mean service time                  	3.2250 minutes
+
+Single-queue, single-server - Grocery Checkout
+trial= 21
+	Execution parameters
+		Mean interarrival time             	4.5 minutes
+		Mean service time                  	3.2 minutes
+		Std dev service time               	0.6 minutes
+		Number of customers served         	1000
+
+	Calculated statistics
+		Server utilization                 	0.7388
+		Maximum queue length               	12
+		Mean response time                 	8.6144 minutes
+		Long response ratio                	0.5970
+		Simulation run duration            	4283.8757 minutes
+		Number of arrivals                 	1000
+		Number of departures               	1000
+		Mean interarrival time             	4.2913 minutes
+		Mean service time                  	3.1647 minutes
+
+Single-queue, single-server - Grocery Checkout
+trial= 22
+	Execution parameters
+		Mean interarrival time             	4.5 minutes
+		Mean service time                  	3.2 minutes
+		Std dev service time               	0.6 minutes
+		Number of customers served         	1000
+
+	Calculated statistics
+		Server utilization                 	0.7019
+		Maximum queue length               	10
+		Mean response time                 	7.1430 minutes
+		Long response ratio                	0.5700
+		Simulation run duration            	4545.4577 minutes
+		Number of arrivals                 	1000
+		Number of departures               	1000
+		Mean interarrival time             	4.5527 minutes
+		Mean service time                  	3.1906 minutes
+
+Single-queue, single-server - Grocery Checkout
+trial= 23
+	Execution parameters
+		Mean interarrival time             	4.5 minutes
+		Mean service time                  	3.2 minutes
+		Std dev service time               	0.6 minutes
+		Number of customers served         	1000
+
+	Calculated statistics
+		Server utilization                 	0.7111
+		Maximum queue length               	8
+		Mean response time                 	7.2906 minutes
+		Long response ratio                	0.5750
+		Simulation run duration            	4480.1997 minutes
+		Number of arrivals                 	1002
+		Number of departures               	1000
+		Mean interarrival time             	4.4727 minutes
+		Mean service time                  	3.1859 minutes
+
+Single-queue, single-server - Grocery Checkout
+trial= 24
+	Execution parameters
+		Mean interarrival time             	4.5 minutes
+		Mean service time                  	3.2 minutes
+		Std dev service time               	0.6 minutes
+		Number of customers served         	1000
+
+	Calculated statistics
+		Server utilization                 	0.6558
+		Maximum queue length               	6
+		Mean response time                 	5.8789 minutes
+		Long response ratio                	0.5260
+		Simulation run duration            	4857.6165 minutes
+		Number of arrivals                 	1000
+		Number of departures               	1000
+		Mean interarrival time             	4.8580 minutes
+		Mean service time                  	3.1854 minutes
+
+Single-queue, single-server - Grocery Checkout
+trial= 25
+	Execution parameters
+		Mean interarrival time             	4.5 minutes
+		Mean service time                  	3.2 minutes
+		Std dev service time               	0.6 minutes
+		Number of customers served         	1000
+
+	Calculated statistics
+		Server utilization                 	0.6935
+		Maximum queue length               	8
+		Mean response time                 	6.8482 minutes
+		Long response ratio                	0.5860
+		Simulation run duration            	4655.7904 minutes
+		Number of arrivals                 	1003
+		Number of departures               	1000
+		Mean interarrival time             	4.6446 minutes
+		Mean service time                  	3.2287 minutes
+
+Single-queue, single-server - Grocery Checkout
+trial= 26
+	Execution parameters
+		Mean interarrival time             	4.5 minutes
+		Mean service time                  	3.2 minutes
+		Std dev service time               	0.6 minutes
+		Number of customers served         	1000
+
+	Calculated statistics
+		Server utilization                 	0.7046
+		Maximum queue length               	6
+		Mean response time                 	6.7683 minutes
+		Long response ratio                	0.6010
+		Simulation run duration            	4550.7879 minutes
+		Number of arrivals                 	1001
+		Number of departures               	1000
+		Mean interarrival time             	4.5486 minutes
+		Mean service time                  	3.2063 minutes
+
+Single-queue, single-server - Grocery Checkout
+trial= 27
+	Execution parameters
+		Mean interarrival time             	4.5 minutes
+		Mean service time                  	3.2 minutes
+		Std dev service time               	0.6 minutes
+		Number of customers served         	1000
+
+	Calculated statistics
+		Server utilization                 	0.7062
+		Maximum queue length               	8
+		Mean response time                 	6.6078 minutes
+		Long response ratio                	0.5640
+		Simulation run duration            	4462.5789 minutes
+		Number of arrivals                 	1001
+		Number of departures               	1000
+		Mean interarrival time             	4.4591 minutes
+		Mean service time                  	3.1503 minutes
+
+Single-queue, single-server - Grocery Checkout
+trial= 28
+	Execution parameters
+		Mean interarrival time             	4.5 minutes
+		Mean service time                  	3.2 minutes
+		Std dev service time               	0.6 minutes
+		Number of customers served         	1000
+
+	Calculated statistics
+		Server utilization                 	0.7211
+		Maximum queue length               	10
+		Mean response time                 	7.3606 minutes
+		Long response ratio                	0.5700
+		Simulation run duration            	4412.4606 minutes
+		Number of arrivals                 	1001
+		Number of departures               	1000
+		Mean interarrival time             	4.4119 minutes
+		Mean service time                  	3.1816 minutes
+
+Single-queue, single-server - Grocery Checkout
+trial= 29
+	Execution parameters
+		Mean interarrival time             	4.5 minutes
+		Mean service time                  	3.2 minutes
+		Std dev service time               	0.6 minutes
+		Number of customers served         	1000
+
+	Calculated statistics
+		Server utilization                 	0.7187
+		Maximum queue length               	8
+		Mean response time                 	7.2327 minutes
+		Long response ratio                	0.5790
+		Simulation run duration            	4472.1776 minutes
+		Number of arrivals                 	1008
+		Number of departures               	1000
+		Mean interarrival time             	4.4426 minutes
+		Mean service time                  	3.2140 minutes
+
+Single-queue, single-server - Grocery Checkout
+trial= 30
+	Execution parameters
+		Mean interarrival time             	4.5 minutes
+		Mean service time                  	3.2 minutes
+		Std dev service time               	0.6 minutes
+		Number of customers served         	1000
+
+	Calculated statistics
+		Server utilization                 	0.7152
+		Maximum queue length               	7
+		Mean response time                 	7.3052 minutes
+		Long response ratio                	0.5930
+		Simulation run duration            	4515.8023 minutes
+		Number of arrivals                 	1001
+		Number of departures               	1000
+		Mean interarrival time             	4.5160 minutes
+		Mean service time                  	3.2301 minutes
+
+Mean response time over 30 trials: 7.3169 minutes

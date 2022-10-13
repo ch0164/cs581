@@ -19,7 +19,7 @@ if source.flags.HEAP_IMPLEMENTATION == PYTHON_HEAP:
 else:
     source.flags.HEAP_IMPLEMENTATION = CUSTOM_HEAP
     import source.min_heap as hq
-print(f"Using {source.flags.HEAP_IMPLEMENTATION}")
+# print(f"Using {source.flags.HEAP_IMPLEMENTATION}")
 
 
 # Store the Future Event List as a global variable.

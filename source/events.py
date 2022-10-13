@@ -7,7 +7,7 @@
 from typing import Union
 
 # Custom Imports
-from source.constants import ARRIVAL_EVENT, DEPARTURE_EVENT, END_EVENT
+from source.constants import ARRIVAL, DEPARTURE, END
 
 
 class Event:
@@ -20,6 +20,7 @@ class Event:
         self.id = id
         self.time = time
         self.type = None
+        self.arrival_time = None
 
     def __lt__(self, other: "Event") -> bool:
         """
@@ -30,9 +31,9 @@ class Event:
                  Arrival > Departure > End.
         """
         if self.time == other.time:
-            if self.type == END_EVENT:
+            if self.type == END:
                 return False
-            return self.type == ARRIVAL_EVENT
+            return self.type == ARRIVAL
         return self.time < other.time
 
     def __eq__(self, other: "Event") -> bool:
@@ -58,18 +59,19 @@ class Arrival(Event):
         :param time: The simulation time of the Event.
         """
         super().__init__(id, time)
-        self.type = ARRIVAL_EVENT
+        self.type = ARRIVAL
 
 
 class Departure(Event):
     """Departure Events signify an entity exiting from the queueing system."""
-    def __init__(self, id: int = None, time: Union[int, float] = 0):
+    def __init__(self, id: int = None, time: Union[int, float] = 0, arrival_time: Union[int, float] = 0):
         """
         :param id: The ID number of the event.
         :param time: The simulation time of the Event.
         """
         super().__init__(id, time)
-        self.type = DEPARTURE_EVENT
+        self.type = DEPARTURE
+        self.arrival_time = arrival_time
 
 
 class End(Event):
@@ -80,4 +82,4 @@ class End(Event):
         :param time: The simulation time of the Event.
         """
         super().__init__(id, time)
-        self.type = END_EVENT
+        self.type = END

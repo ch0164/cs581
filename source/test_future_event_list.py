@@ -61,12 +61,15 @@ class TestFutureEventList(unittest.TestCase):
         # Pop events off the FEL until it is empty.
         # There should be an equal number of events popped off as there were
         # pushed in, and all events should be in ascending time order.
-        while event := fel.get_next():
+        event = fel.get_next()
+        # while event := fel.get_next():  # Not supported in Python 3.6
+        while event:
             self.logger.info(f"get_next, event={event}")
             self.assertLessEqual(prev_time, event.time,
                                  f"Events should be in ascending time order.")
             prev_time = event.time
             get_nexts += 1
+            event = fel.get_next()
 
         fel.print_fel(self.logger)
         self.logger.info(f"inserts={inserts}, get_nexts={get_nexts}, "
@@ -148,8 +151,11 @@ class TestFutureEventList(unittest.TestCase):
         # Check that the observed events in the FEL match the expected events.
         expected_events = [Arrival(time=30), Arrival(time=40)]
         observed_events = []
-        while event := fel.get_next():
+        event = fel.get_next()
+        # while event := fel.get_next():  # Not supported in Python 3.6.
+        while event:
             observed_events.append(event)
+            event = fel.get_next()
         self.assertEqual(expected_events, observed_events,
                          f"Expected order of events do not match the"
                          f"observed order of events.")
