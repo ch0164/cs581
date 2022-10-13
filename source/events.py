@@ -1,38 +1,83 @@
-from source.constants import *
+# Filename: events.py
+# Author: Christian Hall
+# Date: 09/28/2022
+# Description: This file contains all Events used in programs for CS 581.
+
+# Python Imports
+from typing import Union
+
+# Custom Imports
+from source.constants import ARRIVAL_EVENT, DEPARTURE_EVENT, END_EVENT
 
 
 class Event:
-    def __init__(self, time):
+    """Base Event class."""
+    def __init__(self, id: int = None, time: Union[int, float] = 0):
+        """
+        :param id: The ID number of the event.
+        :param time: The simulation time of the Event.
+        """
+        self.id = id
         self.time = time
         self.type = None
 
-    def __lt__(self, other):
+    def __lt__(self, other: "Event") -> bool:
+        """
+        :param other: Another Event object.
+        :return: Returns True if this Event occurs before the other Event,
+                 otherwise returns False.
+                 If Events occur at the same time, the priority is as follows:
+                 Arrival > Departure > End.
+        """
         if self.time == other.time:
             if self.type == END_EVENT:
                 return False
             return self.type == ARRIVAL_EVENT
         return self.time < other.time
 
-    def __eq__(self, other):
+    def __eq__(self, other: "Event") -> bool:
+        """
+        :param other: Another Event object.
+        :return: Returns True if Events have the same fields,
+                 otherwise returns False.
+        """
         return self.time == other.time and self.type == other.type
 
-    def __repr__(self):
-        return f"({self.type[0]}, {self.time})"
+    def __repr__(self) -> str:
+        """
+        :return: String with the format "(<Event Abbreviation>, <Event Time>)".
+        """
+        return f"(type={self.type[0]}, time={self.time}, id={self.id})"
 
 
 class Arrival(Event):
-    def __init__(self, time):
-        super().__init__(time)
+    """Arrival Events signify an entity entering into the queueing system."""
+    def __init__(self, id: int = None, time: Union[int, float] = 0):
+        """
+        :param id: The ID number of the event.
+        :param time: The simulation time of the Event.
+        """
+        super().__init__(id, time)
         self.type = ARRIVAL_EVENT
 
 
 class Departure(Event):
-    def __init__(self, time):
-        super().__init__(time)
+    """Departure Events signify an entity exiting from the queueing system."""
+    def __init__(self, id: int = None, time: Union[int, float] = 0):
+        """
+        :param id: The ID number of the event.
+        :param time: The simulation time of the Event.
+        """
+        super().__init__(id, time)
         self.type = DEPARTURE_EVENT
 
 
 class End(Event):
-    def __init__(self, time):
-        super().__init__(time)
+    """End Events signify the end of the simulation."""
+    def __init__(self, id: int = None, time: Union[int, float] = 0):
+        """
+        :param id: The ID number of the event.
+        :param time: The simulation time of the Event.
+        """
+        super().__init__(id, time)
         self.type = END_EVENT
