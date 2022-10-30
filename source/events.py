@@ -12,12 +12,15 @@ from source.constants import ARRIVAL, DEPARTURE, END
 
 class Event:
     """Base Event class."""
-    def __init__(self, id: int = None, time: Union[int, float] = 0):
+    def __init__(self, id: int = None, entity: str = None,
+                 time: Union[int, float] = 0):
         """
         :param id: The ID number of the event.
+        :param entity: The entity to which this event belongs.
         :param time: The simulation time of the Event.
         """
         self.id = id
+        self.entity = entity
         self.time = time
         self.type = None
         self.arrival_time = None
@@ -53,33 +56,42 @@ class Event:
 
 class Arrival(Event):
     """Arrival Events signify an entity entering into the queueing system."""
-    def __init__(self, id: int = None, time: Union[int, float] = 0):
+    def __init__(self, id: int = None, entity: str = None,
+                 time: Union[int, float] = 0):
         """
         :param id: The ID number of the event.
+        :param entity: The entity to which this event belongs.
         :param time: The simulation time of the Event.
         """
-        super().__init__(id, time)
+        super().__init__(id, entity, time)
         self.type = ARRIVAL
 
 
 class Departure(Event):
     """Departure Events signify an entity exiting from the queueing system."""
-    def __init__(self, id: int = None, time: Union[int, float] = 0, arrival_time: Union[int, float] = 0):
+    def __init__(self, id: int = None, entity: str = None,
+                 time: Union[int, float] = 0,
+                 arrival_time: Union[int, float] = 0):
         """
         :param id: The ID number of the event.
+        :param entity: The entity to which this event belongs.
         :param time: The simulation time of the Event.
+        :param arrival_time: The simulation time of the arrival time for this
+        entity.
         """
-        super().__init__(id, time)
+        super().__init__(id, entity, time)
         self.type = DEPARTURE
         self.arrival_time = arrival_time
 
 
 class End(Event):
     """End Events signify the end of the simulation."""
-    def __init__(self, id: int = None, time: Union[int, float] = 0):
+    def __init__(self, id: int = None, entity: str = None,
+                 time: Union[int, float] = 0):
         """
         :param id: The ID number of the event.
+        :param entity: The entity to which this event belongs.
         :param time: The simulation time of the Event.
         """
-        super().__init__(id, time)
+        super().__init__(id, entity, time)
         self.type = END

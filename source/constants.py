@@ -28,6 +28,15 @@ IDLE = "IDLE"
 BUSY = "BUSY"
 
 # ------------------------------------------------------------------------------
+# DES Model Specific Constants
+# ------------------------------------------------------------------------------
+# Grocery Check-In
+ALLOW_TRANSFERS = "ALLOW"
+PROHIBIT_TRANSFERS = "PROHIBIT"
+FIRST_CLASS = "FIRST_CLASS"
+ECONOMY_CLASS = "ECONOMY"
+
+# ------------------------------------------------------------------------------
 # Heap Implementation Constants
 # ------------------------------------------------------------------------------
 CUSTOM_HEAP = "Custom Min Heap"
