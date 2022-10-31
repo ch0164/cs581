@@ -51,6 +51,8 @@ def airport_check_in(trial: int,
     the formatted output of the trial's execution parameters and
     calculated statistics.
     """
+    global uuid
+    uuid = -1
     clock = 0
     allow_transfers = True if scenario is ALLOW_TRANSFERS else False
     transfer_count = 0
@@ -59,7 +61,6 @@ def airport_check_in(trial: int,
             {
                 "arrival_count": 0,
                 "departure_count": 0,
-                "cumulative_delay": 0,
                 "cumulative_time_busy": 0,
                 "current_queue_length": 0,
                 "maximum_queue_length": 0,
@@ -200,7 +201,8 @@ def airport_check_in(trial: int,
                 if allow_transfers and flight_class is FIRST_CLASS and \
                         len(states[ECONOMY_CLASS]["queue"]) > 0 and \
                         states[ECONOMY_CLASS]["server_status"] is BUSY:
-                    economy_arrival_event = states[ECONOMY_CLASS]["queue"].pop()
+                    economy_arrival_event = states[ECONOMY_CLASS]["queue"].pop(
+                        0)
                     service_time = schedule_departure(
                         economy_arrival_event,
                         FIRST_CLASS,
@@ -217,9 +219,8 @@ def airport_check_in(trial: int,
 
             # Service the next entity.
             else:
-                # Get this entity's corresponding arrival event.
-                arrival_event = states[flight_class]["queue"].pop()
                 # Schedule a new Departure event for the next entity.
+                arrival_event = states[flight_class]["queue"].pop(0)
                 service_time = schedule_departure(
                     arrival_event,
                     flight_class,
@@ -362,34 +363,36 @@ def format_output(trial: int,
 def main():
     # Run 100 trials of the Airport Check-In DES model.
     trial_count = 30
-    scenario = ALLOW_TRANSFERS
-    trials = [airport_check_in(trial_index, scenario)
-              for trial_index in range(1, trial_count + 1)]
+    for scenario in [ALLOW_TRANSFERS, PROHIBIT_TRANSFERS]:
+        trials = [airport_check_in(trial_index, scenario)
+                  for trial_index in range(1, trial_count + 1)]
 
-    # Write the results of each trial to an output file.
-    # Also, write the mean response times from all trials to the file.
-    mean_responses = {
-        FIRST_CLASS: [],
-        ECONOMY_CLASS: [],
-        "overall": []
-    }
-    with open(f"{OUTPUT_DIRECTORY}airport_check_in.txt", "w") as fp:
-        for first_response, economy_response, overall_response, output in trials:
-            for lines in output:
-                fp.writelines(lines + "\n")
-            mean_responses[FIRST_CLASS].append(first_response)
-            mean_responses[ECONOMY_CLASS].append(economy_response)
-            mean_responses["overall"].append(overall_response)
-        fp.write(f"Airport Check-In, scenario= {scenario.capitalize()} "
-                 f"trials= {trial_count}\n")
-        transfers_allowed = "Yes" if scenario is ALLOW_TRANSFERS else "No"
-        fp.write(f"\t{'Transfers allowed':<40}{transfers_allowed}\n")
-        for key, response_times in mean_responses.items():
-            mean_response_time = sum(response_times) / trial_count
-            format_key = f"{key.replace('_', ' ').capitalize()}, " \
-                         f"mean of mean responses="
-            fp.write(f"\t{format_key:<40}")
-            fp.write(f"{mean_response_time:.4f}\n")
+        # Write the results of each trial to an output file.
+        # Also, write the mean response times from all trials to the file.
+        mean_responses = {
+            FIRST_CLASS: [],
+            ECONOMY_CLASS: [],
+            "overall": []
+        }
+        with open(f"{OUTPUT_DIRECTORY}airport_check_in_"
+                  f"{scenario.lower()}_transfers.txt", "w") as fp:
+            for first_response, economy_response, overall_response, \
+                output in trials:
+                for lines in output:
+                    fp.writelines(lines + "\n")
+                mean_responses[FIRST_CLASS].append(first_response)
+                mean_responses[ECONOMY_CLASS].append(economy_response)
+                mean_responses["overall"].append(overall_response)
+            fp.write(f"Airport Check-In, scenario= {scenario.capitalize()} "
+                     f"trials= {trial_count}\n")
+            transfers_allowed = "Yes" if scenario is ALLOW_TRANSFERS else "No"
+            fp.write(f"\t{'Transfers allowed':<40}{transfers_allowed}\n")
+            for key, response_times in mean_responses.items():
+                mean_response_time = sum(response_times) / trial_count
+                format_key = f"{key.replace('_', ' ').capitalize()}, " \
+                             f"mean of mean responses="
+                fp.write(f"\t{format_key:<40}")
+                fp.write(f"{mean_response_time:.4f}\n")
 
 
 if __name__ == "__main__":

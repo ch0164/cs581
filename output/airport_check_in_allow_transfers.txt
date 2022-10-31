@@ -1,0 +1,1205 @@
+Multi-queue, multi-server - Airport Check-In
+trial= 1
+	Execution parameters
+		First class, Interarrival mean time          2 minutes
+		First class, Service mean time               2 minutes
+		First class, Service std time                0.5 minutes
+		Economy, Interarrival mean time              1 minutes
+		Economy, Service mean time                   1 minutes
+		Economy, Service std time                    0.25 minutes
+		Simulation run duration                      120 minutes
+		Transfers allowed                            Yes
+
+	Calculated statistics
+		First class, Number of arrivals              50
+		First class, Mean interarrival time          2.4369 minutes
+		First class, Maximum queue length            8
+		First class, Length at simulation end        1
+		First class, Server utilization              0.9190
+		First class, Number of departures            51
+		First class, Mean response time              8.2165 minutes
+		First class, Long response ratio             0.7647
+		First class, Mean service time               2.1469 minutes
+		First class, Status at simulation end        BUSY
+		First class, Economy class customers served  3
+
+		Economy, Number of arrivals                  123
+		Economy, Mean interarrival time              0.9819 minutes
+		Economy, Maximum queue length                16
+		Economy, Length at simulation end            14
+		Economy, Server utilization                  0.9190
+		Economy, Number of departures                108
+		Economy, Mean response time                  6.5691 minutes
+		Economy, Long response ratio                 0.6111
+		Economy, Mean service time                   1.0082 minutes
+		Economy, Status at simulation end            BUSY
+
+		Total arrivals                               173
+		Total departures                             159
+		Total in system at simulation end            14
+
+Multi-queue, multi-server - Airport Check-In
+trial= 2
+	Execution parameters
+		First class, Interarrival mean time          2 minutes
+		First class, Service mean time               2 minutes
+		First class, Service std time                0.5 minutes
+		Economy, Interarrival mean time              1 minutes
+		Economy, Service mean time                   1 minutes
+		Economy, Service std time                    0.25 minutes
+		Simulation run duration                      120 minutes
+		Transfers allowed                            Yes
+
+	Calculated statistics
+		First class, Number of arrivals              60
+		First class, Mean interarrival time          2.0338 minutes
+		First class, Maximum queue length            10
+		First class, Length at simulation end        0
+		First class, Server utilization              0.9964
+		First class, Number of departures            59
+		First class, Mean response time              13.6569 minutes
+		First class, Long response ratio             0.9661
+		First class, Mean service time               2.0151 minutes
+		First class, Status at simulation end        BUSY
+		First class, Economy class customers served  0
+
+		Economy, Number of arrivals                  126
+		Economy, Mean interarrival time              0.9620 minutes
+		Economy, Maximum queue length                11
+		Economy, Length at simulation end            9
+		Economy, Server utilization                  0.9964
+		Economy, Number of departures                116
+		Economy, Mean response time                  5.6331 minutes
+		Economy, Long response ratio                 0.8362
+		Economy, Mean service time                   1.0152 minutes
+		Economy, Status at simulation end            BUSY
+
+		Total arrivals                               186
+		Total departures                             175
+		Total in system at simulation end            11
+
+Multi-queue, multi-server - Airport Check-In
+trial= 3
+	Execution parameters
+		First class, Interarrival mean time          2 minutes
+		First class, Service mean time               2 minutes
+		First class, Service std time                0.5 minutes
+		Economy, Interarrival mean time              1 minutes
+		Economy, Service mean time                   1 minutes
+		Economy, Service std time                    0.25 minutes
+		Simulation run duration                      120 minutes
+		Transfers allowed                            Yes
+
+	Calculated statistics
+		First class, Number of arrivals              54
+		First class, Mean interarrival time          2.2539 minutes
+		First class, Maximum queue length            5
+		First class, Length at simulation end        1
+		First class, Server utilization              0.9069
+		First class, Number of departures            54
+		First class, Mean response time              5.8349 minutes
+		First class, Long response ratio             0.7593
+		First class, Mean service time               2.0053 minutes
+		First class, Status at simulation end        BUSY
+		First class, Economy class customers served  2
+
+		Economy, Number of arrivals                  104
+		Economy, Mean interarrival time              1.1726 minutes
+		Economy, Maximum queue length                10
+		Economy, Length at simulation end            5
+		Economy, Server utilization                  0.9069
+		Economy, Number of departures                98
+		Economy, Mean response time                  2.8241 minutes
+		Economy, Long response ratio                 0.2551
+		Economy, Mean service time                   0.9951 minutes
+		Economy, Status at simulation end            BUSY
+
+		Total arrivals                               158
+		Total departures                             152
+		Total in system at simulation end            6
+
+Multi-queue, multi-server - Airport Check-In
+trial= 4
+	Execution parameters
+		First class, Interarrival mean time          2 minutes
+		First class, Service mean time               2 minutes
+		First class, Service std time                0.5 minutes
+		Economy, Interarrival mean time              1 minutes
+		Economy, Service mean time                   1 minutes
+		Economy, Service std time                    0.25 minutes
+		Simulation run duration                      120 minutes
+		Transfers allowed                            Yes
+
+	Calculated statistics
+		First class, Number of arrivals              77
+		First class, Mean interarrival time          1.5679 minutes
+		First class, Maximum queue length            19
+		First class, Length at simulation end        17
+		First class, Server utilization              1.0000
+		First class, Number of departures            61
+		First class, Mean response time              15.6247 minutes
+		First class, Long response ratio             0.8525
+		First class, Mean service time               1.9611 minutes
+		First class, Status at simulation end        BUSY
+		First class, Economy class customers served  2
+
+		Economy, Number of arrivals                  116
+		Economy, Mean interarrival time              1.0494 minutes
+		Economy, Maximum queue length                9
+		Economy, Length at simulation end            4
+		Economy, Server utilization                  1.0000
+		Economy, Number of departures                111
+		Economy, Mean response time                  2.6012 minutes
+		Economy, Long response ratio                 0.1802
+		Economy, Mean service time                   0.9862 minutes
+		Economy, Status at simulation end            BUSY
+
+		Total arrivals                               193
+		Total departures                             172
+		Total in system at simulation end            21
+
+Multi-queue, multi-server - Airport Check-In
+trial= 5
+	Execution parameters
+		First class, Interarrival mean time          2 minutes
+		First class, Service mean time               2 minutes
+		First class, Service std time                0.5 minutes
+		Economy, Interarrival mean time              1 minutes
+		Economy, Service mean time                   1 minutes
+		Economy, Service std time                    0.25 minutes
+		Simulation run duration                      120 minutes
+		Transfers allowed                            Yes
+
+	Calculated statistics
+		First class, Number of arrivals              62
+		First class, Mean interarrival time          2.0484 minutes
+		First class, Maximum queue length            12
+		First class, Length at simulation end        3
+		First class, Server utilization              0.9885
+		First class, Number of departures            62
+		First class, Mean response time              9.0715 minutes
+		First class, Long response ratio             0.8226
+		First class, Mean service time               1.8835 minutes
+		First class, Status at simulation end        BUSY
+		First class, Economy class customers served  4
+
+		Economy, Number of arrivals                  112
+		Economy, Mean interarrival time              1.0769 minutes
+		Economy, Maximum queue length                9
+		Economy, Length at simulation end            5
+		Economy, Server utilization                  0.9885
+		Economy, Number of departures                106
+		Economy, Mean response time                  2.3864 minutes
+		Economy, Long response ratio                 0.1792
+		Economy, Mean service time                   0.9731 minutes
+		Economy, Status at simulation end            BUSY
+
+		Total arrivals                               174
+		Total departures                             168
+		Total in system at simulation end            6
+
+Multi-queue, multi-server - Airport Check-In
+trial= 6
+	Execution parameters
+		First class, Interarrival mean time          2 minutes
+		First class, Service mean time               2 minutes
+		First class, Service std time                0.5 minutes
+		Economy, Interarrival mean time              1 minutes
+		Economy, Service mean time                   1 minutes
+		Economy, Service std time                    0.25 minutes
+		Simulation run duration                      120 minutes
+		Transfers allowed                            Yes
+
+	Calculated statistics
+		First class, Number of arrivals              57
+		First class, Mean interarrival time          2.1094 minutes
+		First class, Maximum queue length            7
+		First class, Length at simulation end        6
+		First class, Server utilization              0.9552
+		First class, Number of departures            58
+		First class, Mean response time              5.1558 minutes
+		First class, Long response ratio             0.5345
+		First class, Mean service time               1.9706 minutes
+		First class, Status at simulation end        BUSY
+		First class, Economy class customers served  8
+
+		Economy, Number of arrivals                  115
+		Economy, Mean interarrival time              1.0439 minutes
+		Economy, Maximum queue length                15
+		Economy, Length at simulation end            12
+		Economy, Server utilization                  0.9552
+		Economy, Number of departures                102
+		Economy, Mean response time                  3.3801 minutes
+		Economy, Long response ratio                 0.3627
+		Economy, Mean service time                   1.0184 minutes
+		Economy, Status at simulation end            BUSY
+
+		Total arrivals                               172
+		Total departures                             160
+		Total in system at simulation end            12
+
+Multi-queue, multi-server - Airport Check-In
+trial= 7
+	Execution parameters
+		First class, Interarrival mean time          2 minutes
+		First class, Service mean time               2 minutes
+		First class, Service std time                0.5 minutes
+		Economy, Interarrival mean time              1 minutes
+		Economy, Service mean time                   1 minutes
+		Economy, Service std time                    0.25 minutes
+		Simulation run duration                      120 minutes
+		Transfers allowed                            Yes
+
+	Calculated statistics
+		First class, Number of arrivals              68
+		First class, Mean interarrival time          1.7860 minutes
+		First class, Maximum queue length            9
+		First class, Length at simulation end        8
+		First class, Server utilization              0.9985
+		First class, Number of departures            60
+		First class, Mean response time              10.2961 minutes
+		First class, Long response ratio             0.9000
+		First class, Mean service time               1.9713 minutes
+		First class, Status at simulation end        BUSY
+		First class, Economy class customers served  1
+
+		Economy, Number of arrivals                  146
+		Economy, Mean interarrival time              0.8386 minutes
+		Economy, Maximum queue length                36
+		Economy, Length at simulation end            31
+		Economy, Server utilization                  0.9985
+		Economy, Number of departures                114
+		Economy, Mean response time                  12.3780 minutes
+		Economy, Long response ratio                 0.8596
+		Economy, Mean service time                   1.0024 minutes
+		Economy, Status at simulation end            BUSY
+
+		Total arrivals                               214
+		Total departures                             174
+		Total in system at simulation end            40
+
+Multi-queue, multi-server - Airport Check-In
+trial= 8
+	Execution parameters
+		First class, Interarrival mean time          2 minutes
+		First class, Service mean time               2 minutes
+		First class, Service std time                0.5 minutes
+		Economy, Interarrival mean time              1 minutes
+		Economy, Service mean time                   1 minutes
+		Economy, Service std time                    0.25 minutes
+		Simulation run duration                      120 minutes
+		Transfers allowed                            Yes
+
+	Calculated statistics
+		First class, Number of arrivals              67
+		First class, Mean interarrival time          1.8550 minutes
+		First class, Maximum queue length            12
+		First class, Length at simulation end        6
+		First class, Server utilization              1.0000
+		First class, Number of departures            60
+		First class, Mean response time              14.9675 minutes
+		First class, Long response ratio             0.9000
+		First class, Mean service time               1.9848 minutes
+		First class, Status at simulation end        BUSY
+		First class, Economy class customers served  0
+
+		Economy, Number of arrivals                  121
+		Economy, Mean interarrival time              0.9959 minutes
+		Economy, Maximum queue length                12
+		Economy, Length at simulation end            9
+		Economy, Server utilization                  1.0000
+		Economy, Number of departures                111
+		Economy, Mean response time                  4.3583 minutes
+		Economy, Long response ratio                 0.4865
+		Economy, Mean service time                   0.9983 minutes
+		Economy, Status at simulation end            BUSY
+
+		Total arrivals                               188
+		Total departures                             171
+		Total in system at simulation end            17
+
+Multi-queue, multi-server - Airport Check-In
+trial= 9
+	Execution parameters
+		First class, Interarrival mean time          2 minutes
+		First class, Service mean time               2 minutes
+		First class, Service std time                0.5 minutes
+		Economy, Interarrival mean time              1 minutes
+		Economy, Service mean time                   1 minutes
+		Economy, Service std time                    0.25 minutes
+		Simulation run duration                      120 minutes
+		Transfers allowed                            Yes
+
+	Calculated statistics
+		First class, Number of arrivals              60
+		First class, Mean interarrival time          2.0008 minutes
+		First class, Maximum queue length            7
+		First class, Length at simulation end        3
+		First class, Server utilization              0.9554
+		First class, Number of departures            59
+		First class, Mean response time              7.2889 minutes
+		First class, Long response ratio             0.7797
+		First class, Mean service time               1.9294 minutes
+		First class, Status at simulation end        BUSY
+		First class, Economy class customers served  3
+
+		Economy, Number of arrivals                  123
+		Economy, Mean interarrival time              0.9813 minutes
+		Economy, Maximum queue length                14
+		Economy, Length at simulation end            5
+		Economy, Server utilization                  0.9554
+		Economy, Number of departures                117
+		Economy, Mean response time                  4.2957 minutes
+		Economy, Long response ratio                 0.5470
+		Economy, Mean service time                   0.9553 minutes
+		Economy, Status at simulation end            BUSY
+
+		Total arrivals                               183
+		Total departures                             176
+		Total in system at simulation end            7
+
+Multi-queue, multi-server - Airport Check-In
+trial= 10
+	Execution parameters
+		First class, Interarrival mean time          2 minutes
+		First class, Service mean time               2 minutes
+		First class, Service std time                0.5 minutes
+		Economy, Interarrival mean time              1 minutes
+		Economy, Service mean time                   1 minutes
+		Economy, Service std time                    0.25 minutes
+		Simulation run duration                      120 minutes
+		Transfers allowed                            Yes
+
+	Calculated statistics
+		First class, Number of arrivals              66
+		First class, Mean interarrival time          1.8274 minutes
+		First class, Maximum queue length            14
+		First class, Length at simulation end        11
+		First class, Server utilization              0.9737
+		First class, Number of departures            61
+		First class, Mean response time              9.8067 minutes
+		First class, Long response ratio             0.7705
+		First class, Mean service time               1.9074 minutes
+		First class, Status at simulation end        BUSY
+		First class, Economy class customers served  7
+
+		Economy, Number of arrivals                  125
+		Economy, Mean interarrival time              0.9614 minutes
+		Economy, Maximum queue length                14
+		Economy, Length at simulation end            13
+		Economy, Server utilization                  0.9737
+		Economy, Number of departures                111
+		Economy, Mean response time                  3.8349 minutes
+		Economy, Long response ratio                 0.4775
+		Economy, Mean service time                   1.0084 minutes
+		Economy, Status at simulation end            BUSY
+
+		Total arrivals                               191
+		Total departures                             172
+		Total in system at simulation end            19
+
+Multi-queue, multi-server - Airport Check-In
+trial= 11
+	Execution parameters
+		First class, Interarrival mean time          2 minutes
+		First class, Service mean time               2 minutes
+		First class, Service std time                0.5 minutes
+		Economy, Interarrival mean time              1 minutes
+		Economy, Service mean time                   1 minutes
+		Economy, Service std time                    0.25 minutes
+		Simulation run duration                      120 minutes
+		Transfers allowed                            Yes
+
+	Calculated statistics
+		First class, Number of arrivals              46
+		First class, Mean interarrival time          2.6355 minutes
+		First class, Maximum queue length            6
+		First class, Length at simulation end        2
+		First class, Server utilization              0.8464
+		First class, Number of departures            52
+		First class, Mean response time              5.2846 minutes
+		First class, Long response ratio             0.5000
+		First class, Mean service time               1.9422 minutes
+		First class, Status at simulation end        BUSY
+		First class, Economy class customers served  9
+
+		Economy, Number of arrivals                  127
+		Economy, Mean interarrival time              0.9460 minutes
+		Economy, Maximum queue length                18
+		Economy, Length at simulation end            16
+		Economy, Server utilization                  0.8464
+		Economy, Number of departures                110
+		Economy, Mean response time                  3.5710 minutes
+		Economy, Long response ratio                 0.4091
+		Economy, Mean service time                   0.9841 minutes
+		Economy, Status at simulation end            BUSY
+
+		Total arrivals                               173
+		Total departures                             162
+		Total in system at simulation end            11
+
+Multi-queue, multi-server - Airport Check-In
+trial= 12
+	Execution parameters
+		First class, Interarrival mean time          2 minutes
+		First class, Service mean time               2 minutes
+		First class, Service std time                0.5 minutes
+		Economy, Interarrival mean time              1 minutes
+		Economy, Service mean time                   1 minutes
+		Economy, Service std time                    0.25 minutes
+		Simulation run duration                      120 minutes
+		Transfers allowed                            Yes
+
+	Calculated statistics
+		First class, Number of arrivals              73
+		First class, Mean interarrival time          1.8519 minutes
+		First class, Maximum queue length            15
+		First class, Length at simulation end        14
+		First class, Server utilization              0.9697
+		First class, Number of departures            59
+		First class, Mean response time              9.6791 minutes
+		First class, Long response ratio             0.9661
+		First class, Mean service time               1.9505 minutes
+		First class, Status at simulation end        BUSY
+		First class, Economy class customers served  1
+
+		Economy, Number of arrivals                  99
+		Economy, Mean interarrival time              1.2143 minutes
+		Economy, Maximum queue length                7
+		Economy, Length at simulation end            1
+		Economy, Server utilization                  0.9697
+		Economy, Number of departures                97
+		Economy, Mean response time                  3.0601 minutes
+		Economy, Long response ratio                 0.2474
+		Economy, Mean service time                   1.0296 minutes
+		Economy, Status at simulation end            BUSY
+
+		Total arrivals                               172
+		Total departures                             156
+		Total in system at simulation end            16
+
+Multi-queue, multi-server - Airport Check-In
+trial= 13
+	Execution parameters
+		First class, Interarrival mean time          2 minutes
+		First class, Service mean time               2 minutes
+		First class, Service std time                0.5 minutes
+		Economy, Interarrival mean time              1 minutes
+		Economy, Service mean time                   1 minutes
+		Economy, Service std time                    0.25 minutes
+		Simulation run duration                      120 minutes
+		Transfers allowed                            Yes
+
+	Calculated statistics
+		First class, Number of arrivals              72
+		First class, Mean interarrival time          1.7106 minutes
+		First class, Maximum queue length            21
+		First class, Length at simulation end        14
+		First class, Server utilization              1.0000
+		First class, Number of departures            57
+		First class, Mean response time              25.2242 minutes
+		First class, Long response ratio             0.9825
+		First class, Mean service time               2.1022 minutes
+		First class, Status at simulation end        BUSY
+		First class, Economy class customers served  0
+
+		Economy, Number of arrivals                  116
+		Economy, Mean interarrival time              1.0365 minutes
+		Economy, Maximum queue length                11
+		Economy, Length at simulation end            11
+		Economy, Server utilization                  1.0000
+		Economy, Number of departures                104
+		Economy, Mean response time                  3.7699 minutes
+		Economy, Long response ratio                 0.3846
+		Economy, Mean service time                   1.0444 minutes
+		Economy, Status at simulation end            BUSY
+
+		Total arrivals                               188
+		Total departures                             161
+		Total in system at simulation end            27
+
+Multi-queue, multi-server - Airport Check-In
+trial= 14
+	Execution parameters
+		First class, Interarrival mean time          2 minutes
+		First class, Service mean time               2 minutes
+		First class, Service std time                0.5 minutes
+		Economy, Interarrival mean time              1 minutes
+		Economy, Service mean time                   1 minutes
+		Economy, Service std time                    0.25 minutes
+		Simulation run duration                      120 minutes
+		Transfers allowed                            Yes
+
+	Calculated statistics
+		First class, Number of arrivals              69
+		First class, Mean interarrival time          1.7762 minutes
+		First class, Maximum queue length            11
+		First class, Length at simulation end        11
+		First class, Server utilization              0.9528
+		First class, Number of departures            58
+		First class, Mean response time              11.1002 minutes
+		First class, Long response ratio             0.7759
+		First class, Mean service time               1.9551 minutes
+		First class, Status at simulation end        BUSY
+		First class, Economy class customers served  1
+
+		Economy, Number of arrivals                  112
+		Economy, Mean interarrival time              1.0737 minutes
+		Economy, Maximum queue length                16
+		Economy, Length at simulation end            14
+		Economy, Server utilization                  0.9528
+		Economy, Number of departures                97
+		Economy, Mean response time                  4.9023 minutes
+		Economy, Long response ratio                 0.3814
+		Economy, Mean service time                   1.0160 minutes
+		Economy, Status at simulation end            BUSY
+
+		Total arrivals                               181
+		Total departures                             155
+		Total in system at simulation end            26
+
+Multi-queue, multi-server - Airport Check-In
+trial= 15
+	Execution parameters
+		First class, Interarrival mean time          2 minutes
+		First class, Service mean time               2 minutes
+		First class, Service std time                0.5 minutes
+		Economy, Interarrival mean time              1 minutes
+		Economy, Service mean time                   1 minutes
+		Economy, Service std time                    0.25 minutes
+		Simulation run duration                      120 minutes
+		Transfers allowed                            Yes
+
+	Calculated statistics
+		First class, Number of arrivals              70
+		First class, Mean interarrival time          1.7275 minutes
+		First class, Maximum queue length            14
+		First class, Length at simulation end        11
+		First class, Server utilization              1.0000
+		First class, Number of departures            58
+		First class, Mean response time              16.2965 minutes
+		First class, Long response ratio             0.9828
+		First class, Mean service time               2.0583 minutes
+		First class, Status at simulation end        BUSY
+		First class, Economy class customers served  0
+
+		Economy, Number of arrivals                  124
+		Economy, Mean interarrival time              0.9703 minutes
+		Economy, Maximum queue length                15
+		Economy, Length at simulation end            5
+		Economy, Server utilization                  1.0000
+		Economy, Number of departures                118
+		Economy, Mean response time                  8.5358 minutes
+		Economy, Long response ratio                 0.8390
+		Economy, Mean service time                   1.0051 minutes
+		Economy, Status at simulation end            BUSY
+
+		Total arrivals                               194
+		Total departures                             176
+		Total in system at simulation end            18
+
+Multi-queue, multi-server - Airport Check-In
+trial= 16
+	Execution parameters
+		First class, Interarrival mean time          2 minutes
+		First class, Service mean time               2 minutes
+		First class, Service std time                0.5 minutes
+		Economy, Interarrival mean time              1 minutes
+		Economy, Service mean time                   1 minutes
+		Economy, Service std time                    0.25 minutes
+		Simulation run duration                      120 minutes
+		Transfers allowed                            Yes
+
+	Calculated statistics
+		First class, Number of arrivals              54
+		First class, Mean interarrival time          2.2273 minutes
+		First class, Maximum queue length            8
+		First class, Length at simulation end        5
+		First class, Server utilization              0.7885
+		First class, Number of departures            52
+		First class, Mean response time              4.9954 minutes
+		First class, Long response ratio             0.4808
+		First class, Mean service time               1.8198 minutes
+		First class, Status at simulation end        BUSY
+		First class, Economy class customers served  4
+
+		Economy, Number of arrivals                  106
+		Economy, Mean interarrival time              1.1332 minutes
+		Economy, Maximum queue length                9
+		Economy, Length at simulation end            8
+		Economy, Server utilization                  0.7885
+		Economy, Number of departures                97
+		Economy, Mean response time                  1.9154 minutes
+		Economy, Long response ratio                 0.0928
+		Economy, Mean service time                   1.0026 minutes
+		Economy, Status at simulation end            BUSY
+
+		Total arrivals                               160
+		Total departures                             149
+		Total in system at simulation end            11
+
+Multi-queue, multi-server - Airport Check-In
+trial= 17
+	Execution parameters
+		First class, Interarrival mean time          2 minutes
+		First class, Service mean time               2 minutes
+		First class, Service std time                0.5 minutes
+		Economy, Interarrival mean time              1 minutes
+		Economy, Service mean time                   1 minutes
+		Economy, Service std time                    0.25 minutes
+		Simulation run duration                      120 minutes
+		Transfers allowed                            Yes
+
+	Calculated statistics
+		First class, Number of arrivals              56
+		First class, Mean interarrival time          2.1521 minutes
+		First class, Maximum queue length            6
+		First class, Length at simulation end        5
+		First class, Server utilization              1.0000
+		First class, Number of departures            61
+		First class, Mean response time              5.2027 minutes
+		First class, Long response ratio             0.6557
+		First class, Mean service time               1.9360 minutes
+		First class, Status at simulation end        BUSY
+		First class, Economy class customers served  11
+
+		Economy, Number of arrivals                  129
+		Economy, Mean interarrival time              0.9357 minutes
+		Economy, Maximum queue length                20
+		Economy, Length at simulation end            14
+		Economy, Server utilization                  1.0000
+		Economy, Number of departures                114
+		Economy, Mean response time                  5.5091 minutes
+		Economy, Long response ratio                 0.5877
+		Economy, Mean service time                   1.0157 minutes
+		Economy, Status at simulation end            BUSY
+
+		Total arrivals                               185
+		Total departures                             175
+		Total in system at simulation end            10
+
+Multi-queue, multi-server - Airport Check-In
+trial= 18
+	Execution parameters
+		First class, Interarrival mean time          2 minutes
+		First class, Service mean time               2 minutes
+		First class, Service std time                0.5 minutes
+		Economy, Interarrival mean time              1 minutes
+		Economy, Service mean time                   1 minutes
+		Economy, Service std time                    0.25 minutes
+		Simulation run duration                      120 minutes
+		Transfers allowed                            Yes
+
+	Calculated statistics
+		First class, Number of arrivals              59
+		First class, Mean interarrival time          2.0494 minutes
+		First class, Maximum queue length            6
+		First class, Length at simulation end        4
+		First class, Server utilization              1.0000
+		First class, Number of departures            57
+		First class, Mean response time              8.0426 minutes
+		First class, Long response ratio             0.9123
+		First class, Mean service time               2.1041 minutes
+		First class, Status at simulation end        BUSY
+		First class, Economy class customers served  3
+
+		Economy, Number of arrivals                  131
+		Economy, Mean interarrival time              0.9162 minutes
+		Economy, Maximum queue length                18
+		Economy, Length at simulation end            18
+		Economy, Server utilization                  1.0000
+		Economy, Number of departures                112
+		Economy, Mean response time                  5.4111 minutes
+		Economy, Long response ratio                 0.5982
+		Economy, Mean service time                   1.0158 minutes
+		Economy, Status at simulation end            BUSY
+
+		Total arrivals                               190
+		Total departures                             169
+		Total in system at simulation end            21
+
+Multi-queue, multi-server - Airport Check-In
+trial= 19
+	Execution parameters
+		First class, Interarrival mean time          2 minutes
+		First class, Service mean time               2 minutes
+		First class, Service std time                0.5 minutes
+		Economy, Interarrival mean time              1 minutes
+		Economy, Service mean time                   1 minutes
+		Economy, Service std time                    0.25 minutes
+		Simulation run duration                      120 minutes
+		Transfers allowed                            Yes
+
+	Calculated statistics
+		First class, Number of arrivals              51
+		First class, Mean interarrival time          2.3611 minutes
+		First class, Maximum queue length            7
+		First class, Length at simulation end        4
+		First class, Server utilization              0.9338
+		First class, Number of departures            52
+		First class, Mean response time              5.5505 minutes
+		First class, Long response ratio             0.7308
+		First class, Mean service time               2.1289 minutes
+		First class, Status at simulation end        BUSY
+		First class, Economy class customers served  6
+
+		Economy, Number of arrivals                  131
+		Economy, Mean interarrival time              0.9178 minutes
+		Economy, Maximum queue length                22
+		Economy, Length at simulation end            22
+		Economy, Server utilization                  0.9338
+		Economy, Number of departures                108
+		Economy, Mean response time                  8.3351 minutes
+		Economy, Long response ratio                 0.7963
+		Economy, Mean service time                   1.0449 minutes
+		Economy, Status at simulation end            BUSY
+
+		Total arrivals                               182
+		Total departures                             160
+		Total in system at simulation end            22
+
+Multi-queue, multi-server - Airport Check-In
+trial= 20
+	Execution parameters
+		First class, Interarrival mean time          2 minutes
+		First class, Service mean time               2 minutes
+		First class, Service std time                0.5 minutes
+		Economy, Interarrival mean time              1 minutes
+		Economy, Service mean time                   1 minutes
+		Economy, Service std time                    0.25 minutes
+		Simulation run duration                      120 minutes
+		Transfers allowed                            Yes
+
+	Calculated statistics
+		First class, Number of arrivals              60
+		First class, Mean interarrival time          2.0350 minutes
+		First class, Maximum queue length            6
+		First class, Length at simulation end        3
+		First class, Server utilization              0.9767
+		First class, Number of departures            59
+		First class, Mean response time              5.7978 minutes
+		First class, Long response ratio             0.7119
+		First class, Mean service time               1.9855 minutes
+		First class, Status at simulation end        BUSY
+		First class, Economy class customers served  3
+
+		Economy, Number of arrivals                  148
+		Economy, Mean interarrival time              0.8156 minutes
+		Economy, Maximum queue length                33
+		Economy, Length at simulation end            33
+		Economy, Server utilization                  0.9767
+		Economy, Number of departures                114
+		Economy, Mean response time                  11.2081 minutes
+		Economy, Long response ratio                 0.8333
+		Economy, Mean service time                   1.0152 minutes
+		Economy, Status at simulation end            BUSY
+
+		Total arrivals                               208
+		Total departures                             173
+		Total in system at simulation end            35
+
+Multi-queue, multi-server - Airport Check-In
+trial= 21
+	Execution parameters
+		First class, Interarrival mean time          2 minutes
+		First class, Service mean time               2 minutes
+		First class, Service std time                0.5 minutes
+		Economy, Interarrival mean time              1 minutes
+		Economy, Service mean time                   1 minutes
+		Economy, Service std time                    0.25 minutes
+		Simulation run duration                      120 minutes
+		Transfers allowed                            Yes
+
+	Calculated statistics
+		First class, Number of arrivals              62
+		First class, Mean interarrival time          1.9708 minutes
+		First class, Maximum queue length            10
+		First class, Length at simulation end        7
+		First class, Server utilization              0.9993
+		First class, Number of departures            56
+		First class, Mean response time              9.1033 minutes
+		First class, Long response ratio             0.8214
+		First class, Mean service time               2.1276 minutes
+		First class, Status at simulation end        BUSY
+		First class, Economy class customers served  2
+
+		Economy, Number of arrivals                  135
+		Economy, Mean interarrival time              0.8898 minutes
+		Economy, Maximum queue length                17
+		Economy, Length at simulation end            16
+		Economy, Server utilization                  0.9993
+		Economy, Number of departures                118
+		Economy, Mean response time                  7.9466 minutes
+		Economy, Long response ratio                 0.7966
+		Economy, Mean service time                   1.0057 minutes
+		Economy, Status at simulation end            BUSY
+
+		Total arrivals                               197
+		Total departures                             174
+		Total in system at simulation end            23
+
+Multi-queue, multi-server - Airport Check-In
+trial= 22
+	Execution parameters
+		First class, Interarrival mean time          2 minutes
+		First class, Service mean time               2 minutes
+		First class, Service std time                0.5 minutes
+		Economy, Interarrival mean time              1 minutes
+		Economy, Service mean time                   1 minutes
+		Economy, Service std time                    0.25 minutes
+		Simulation run duration                      120 minutes
+		Transfers allowed                            Yes
+
+	Calculated statistics
+		First class, Number of arrivals              65
+		First class, Mean interarrival time          1.8777 minutes
+		First class, Maximum queue length            10
+		First class, Length at simulation end        8
+		First class, Server utilization              0.9857
+		First class, Number of departures            59
+		First class, Mean response time              8.0164 minutes
+		First class, Long response ratio             0.8644
+		First class, Mean service time               1.9830 minutes
+		First class, Status at simulation end        BUSY
+		First class, Economy class customers served  3
+
+		Economy, Number of arrivals                  130
+		Economy, Mean interarrival time              0.9258 minutes
+		Economy, Maximum queue length                21
+		Economy, Length at simulation end            16
+		Economy, Server utilization                  0.9857
+		Economy, Number of departures                113
+		Economy, Mean response time                  6.6430 minutes
+		Economy, Long response ratio                 0.5133
+		Economy, Mean service time                   0.9724 minutes
+		Economy, Status at simulation end            BUSY
+
+		Total arrivals                               195
+		Total departures                             172
+		Total in system at simulation end            23
+
+Multi-queue, multi-server - Airport Check-In
+trial= 23
+	Execution parameters
+		First class, Interarrival mean time          2 minutes
+		First class, Service mean time               2 minutes
+		First class, Service std time                0.5 minutes
+		Economy, Interarrival mean time              1 minutes
+		Economy, Service mean time                   1 minutes
+		Economy, Service std time                    0.25 minutes
+		Simulation run duration                      120 minutes
+		Transfers allowed                            Yes
+
+	Calculated statistics
+		First class, Number of arrivals              56
+		First class, Mean interarrival time          2.2057 minutes
+		First class, Maximum queue length            4
+		First class, Length at simulation end        2
+		First class, Server utilization              0.9671
+		First class, Number of departures            59
+		First class, Mean response time              4.6813 minutes
+		First class, Long response ratio             0.5254
+		First class, Mean service time               1.9500 minutes
+		First class, Status at simulation end        BUSY
+		First class, Economy class customers served  6
+
+		Economy, Number of arrivals                  117
+		Economy, Mean interarrival time              1.0311 minutes
+		Economy, Maximum queue length                11
+		Economy, Length at simulation end            11
+		Economy, Server utilization                  0.9671
+		Economy, Number of departures                105
+		Economy, Mean response time                  2.6372 minutes
+		Economy, Long response ratio                 0.2095
+		Economy, Mean service time                   1.0179 minutes
+		Economy, Status at simulation end            BUSY
+
+		Total arrivals                               173
+		Total departures                             164
+		Total in system at simulation end            9
+
+Multi-queue, multi-server - Airport Check-In
+trial= 24
+	Execution parameters
+		First class, Interarrival mean time          2 minutes
+		First class, Service mean time               2 minutes
+		First class, Service std time                0.5 minutes
+		Economy, Interarrival mean time              1 minutes
+		Economy, Service mean time                   1 minutes
+		Economy, Service std time                    0.25 minutes
+		Simulation run duration                      120 minutes
+		Transfers allowed                            Yes
+
+	Calculated statistics
+		First class, Number of arrivals              71
+		First class, Mean interarrival time          1.6929 minutes
+		First class, Maximum queue length            20
+		First class, Length at simulation end        15
+		First class, Server utilization              0.9941
+		First class, Number of departures            57
+		First class, Mean response time              24.0196 minutes
+		First class, Long response ratio             0.8947
+		First class, Mean service time               2.0714 minutes
+		First class, Status at simulation end        BUSY
+		First class, Economy class customers served  2
+
+		Economy, Number of arrivals                  108
+		Economy, Mean interarrival time              1.1128 minutes
+		Economy, Maximum queue length                9
+		Economy, Length at simulation end            3
+		Economy, Server utilization                  0.9941
+		Economy, Number of departures                104
+		Economy, Mean response time                  3.3106 minutes
+		Economy, Long response ratio                 0.3462
+		Economy, Mean service time                   0.9822 minutes
+		Economy, Status at simulation end            BUSY
+
+		Total arrivals                               179
+		Total departures                             161
+		Total in system at simulation end            18
+
+Multi-queue, multi-server - Airport Check-In
+trial= 25
+	Execution parameters
+		First class, Interarrival mean time          2 minutes
+		First class, Service mean time               2 minutes
+		First class, Service std time                0.5 minutes
+		Economy, Interarrival mean time              1 minutes
+		Economy, Service mean time                   1 minutes
+		Economy, Service std time                    0.25 minutes
+		Simulation run duration                      120 minutes
+		Transfers allowed                            Yes
+
+	Calculated statistics
+		First class, Number of arrivals              61
+		First class, Mean interarrival time          1.9677 minutes
+		First class, Maximum queue length            6
+		First class, Length at simulation end        2
+		First class, Server utilization              0.9806
+		First class, Number of departures            58
+		First class, Mean response time              7.0972 minutes
+		First class, Long response ratio             0.7931
+		First class, Mean service time               2.0013 minutes
+		First class, Status at simulation end        BUSY
+		First class, Economy class customers served  0
+
+		Economy, Number of arrivals                  112
+		Economy, Mean interarrival time              1.0724 minutes
+		Economy, Maximum queue length                9
+		Economy, Length at simulation end            7
+		Economy, Server utilization                  0.9806
+		Economy, Number of departures                104
+		Economy, Mean response time                  3.1891 minutes
+		Economy, Long response ratio                 0.3462
+		Economy, Mean service time                   1.0248 minutes
+		Economy, Status at simulation end            BUSY
+
+		Total arrivals                               173
+		Total departures                             162
+		Total in system at simulation end            11
+
+Multi-queue, multi-server - Airport Check-In
+trial= 26
+	Execution parameters
+		First class, Interarrival mean time          2 minutes
+		First class, Service mean time               2 minutes
+		First class, Service std time                0.5 minutes
+		Economy, Interarrival mean time              1 minutes
+		Economy, Service mean time                   1 minutes
+		Economy, Service std time                    0.25 minutes
+		Simulation run duration                      120 minutes
+		Transfers allowed                            Yes
+
+	Calculated statistics
+		First class, Number of arrivals              58
+		First class, Mean interarrival time          2.1410 minutes
+		First class, Maximum queue length            5
+		First class, Length at simulation end        3
+		First class, Server utilization              0.9093
+		First class, Number of departures            56
+		First class, Mean response time              5.1683 minutes
+		First class, Long response ratio             0.6071
+		First class, Mean service time               1.9174 minutes
+		First class, Status at simulation end        BUSY
+		First class, Economy class customers served  2
+
+		Economy, Number of arrivals                  111
+		Economy, Mean interarrival time              1.0825 minutes
+		Economy, Maximum queue length                11
+		Economy, Length at simulation end            10
+		Economy, Server utilization                  0.9093
+		Economy, Number of departures                100
+		Economy, Mean response time                  3.0841 minutes
+		Economy, Long response ratio                 0.2900
+		Economy, Mean service time                   1.0103 minutes
+		Economy, Status at simulation end            BUSY
+
+		Total arrivals                               169
+		Total departures                             156
+		Total in system at simulation end            13
+
+Multi-queue, multi-server - Airport Check-In
+trial= 27
+	Execution parameters
+		First class, Interarrival mean time          2 minutes
+		First class, Service mean time               2 minutes
+		First class, Service std time                0.5 minutes
+		Economy, Interarrival mean time              1 minutes
+		Economy, Service mean time                   1 minutes
+		Economy, Service std time                    0.25 minutes
+		Simulation run duration                      120 minutes
+		Transfers allowed                            Yes
+
+	Calculated statistics
+		First class, Number of arrivals              66
+		First class, Mean interarrival time          1.8450 minutes
+		First class, Maximum queue length            12
+		First class, Length at simulation end        6
+		First class, Server utilization              0.9944
+		First class, Number of departures            61
+		First class, Mean response time              12.9986 minutes
+		First class, Long response ratio             0.8525
+		First class, Mean service time               1.9402 minutes
+		First class, Status at simulation end        BUSY
+		First class, Economy class customers served  2
+
+		Economy, Number of arrivals                  130
+		Economy, Mean interarrival time              0.9312 minutes
+		Economy, Maximum queue length                18
+		Economy, Length at simulation end            12
+		Economy, Server utilization                  0.9944
+		Economy, Number of departures                117
+		Economy, Mean response time                  8.9672 minutes
+		Economy, Long response ratio                 0.7863
+		Economy, Mean service time                   0.9841 minutes
+		Economy, Status at simulation end            BUSY
+
+		Total arrivals                               196
+		Total departures                             178
+		Total in system at simulation end            18
+
+Multi-queue, multi-server - Airport Check-In
+trial= 28
+	Execution parameters
+		First class, Interarrival mean time          2 minutes
+		First class, Service mean time               2 minutes
+		First class, Service std time                0.5 minutes
+		Economy, Interarrival mean time              1 minutes
+		Economy, Service mean time                   1 minutes
+		Economy, Service std time                    0.25 minutes
+		Simulation run duration                      120 minutes
+		Transfers allowed                            Yes
+
+	Calculated statistics
+		First class, Number of arrivals              63
+		First class, Mean interarrival time          1.9603 minutes
+		First class, Maximum queue length            10
+		First class, Length at simulation end        5
+		First class, Server utilization              1.0000
+		First class, Number of departures            59
+		First class, Mean response time              10.6690 minutes
+		First class, Long response ratio             0.8983
+		First class, Mean service time               2.0172 minutes
+		First class, Status at simulation end        BUSY
+		First class, Economy class customers served  2
+
+		Economy, Number of arrivals                  126
+		Economy, Mean interarrival time              0.9627 minutes
+		Economy, Maximum queue length                8
+		Economy, Length at simulation end            4
+		Economy, Server utilization                  1.0000
+		Economy, Number of departures                121
+		Economy, Mean response time                  4.5455 minutes
+		Economy, Long response ratio                 0.6281
+		Economy, Mean service time                   0.9659 minutes
+		Economy, Status at simulation end            BUSY
+
+		Total arrivals                               189
+		Total departures                             180
+		Total in system at simulation end            9
+
+Multi-queue, multi-server - Airport Check-In
+trial= 29
+	Execution parameters
+		First class, Interarrival mean time          2 minutes
+		First class, Service mean time               2 minutes
+		First class, Service std time                0.5 minutes
+		Economy, Interarrival mean time              1 minutes
+		Economy, Service mean time                   1 minutes
+		Economy, Service std time                    0.25 minutes
+		Simulation run duration                      120 minutes
+		Transfers allowed                            Yes
+
+	Calculated statistics
+		First class, Number of arrivals              55
+		First class, Mean interarrival time          2.2260 minutes
+		First class, Maximum queue length            6
+		First class, Length at simulation end        5
+		First class, Server utilization              0.8898
+		First class, Number of departures            55
+		First class, Mean response time              4.8936 minutes
+		First class, Long response ratio             0.4545
+		First class, Mean service time               1.9487 minutes
+		First class, Status at simulation end        BUSY
+		First class, Economy class customers served  6
+
+		Economy, Number of arrivals                  114
+		Economy, Mean interarrival time              1.0580 minutes
+		Economy, Maximum queue length                14
+		Economy, Length at simulation end            10
+		Economy, Server utilization                  0.8898
+		Economy, Number of departures                103
+		Economy, Mean response time                  2.9284 minutes
+		Economy, Long response ratio                 0.2913
+		Economy, Mean service time                   0.9615 minutes
+		Economy, Status at simulation end            BUSY
+
+		Total arrivals                               169
+		Total departures                             158
+		Total in system at simulation end            11
+
+Multi-queue, multi-server - Airport Check-In
+trial= 30
+	Execution parameters
+		First class, Interarrival mean time          2 minutes
+		First class, Service mean time               2 minutes
+		First class, Service std time                0.5 minutes
+		Economy, Interarrival mean time              1 minutes
+		Economy, Service mean time                   1 minutes
+		Economy, Service std time                    0.25 minutes
+		Simulation run duration                      120 minutes
+		Transfers allowed                            Yes
+
+	Calculated statistics
+		First class, Number of arrivals              61
+		First class, Mean interarrival time          1.9948 minutes
+		First class, Maximum queue length            9
+		First class, Length at simulation end        5
+		First class, Server utilization              0.9855
+		First class, Number of departures            57
+		First class, Mean response time              8.3886 minutes
+		First class, Long response ratio             0.8421
+		First class, Mean service time               2.0730 minutes
+		First class, Status at simulation end        BUSY
+		First class, Economy class customers served  2
+
+		Economy, Number of arrivals                  118
+		Economy, Mean interarrival time              1.0256 minutes
+		Economy, Maximum queue length                11
+		Economy, Length at simulation end            2
+		Economy, Server utilization                  0.9855
+		Economy, Number of departures                116
+		Economy, Mean response time                  4.8446 minutes
+		Economy, Long response ratio                 0.6552
+		Economy, Mean service time                   1.0111 minutes
+		Economy, Status at simulation end            IDLE
+
+		Total arrivals                               179
+		Total departures                             173
+		Total in system at simulation end            6
+
+Airport Check-In, scenario= Allow trials= 30
+	Transfers allowed                       Yes
+	First class, mean of mean responses=    9.7376
+	Economy, mean of mean responses=        5.0858
+	Overall, mean of mean responses=        6.7221

@@ -51,7 +51,8 @@ class Event:
         """
         :return: String with the format "(<Event Abbreviation>, <Event Time>)".
         """
-        return f"(type={self.type[0]}, time={self.time}, id={self.id})"
+        return f"(type={self.type[0]}, time={self.time}, " \
+               f"entity={self.entity}, id={self.id})"
 
 
 class Arrival(Event):
