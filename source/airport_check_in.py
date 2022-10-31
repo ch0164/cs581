@@ -362,7 +362,7 @@ def format_output(trial: int,
 
 def main():
     # Run 100 trials of the Airport Check-In DES model.
-    trial_count = 30
+    trial_count = 100
     for scenario in [ALLOW_TRANSFERS, PROHIBIT_TRANSFERS]:
         trials = [airport_check_in(trial_index, scenario)
                   for trial_index in range(1, trial_count + 1)]
