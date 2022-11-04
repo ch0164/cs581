@@ -5,6 +5,8 @@
 #              random variate generators.
 
 # Python Imports
+from typing import List, Union
+
 import numpy as np
 
 # Global Variables
@@ -82,3 +84,20 @@ def exponential(beta: float, use_np: bool = False) -> float:
         r = rng.uniform(0, 1)
         x = -beta * np.log(r)
     return x
+
+
+def empirical(variates: List[Union[int, float]],
+              probabilities: List[float]) -> Union[int, float]:
+    """
+    Generate a random variate based off of an empirical distribution.
+    :param variates: A list of random variates.
+    :param probabilities: A list of probabilities for those variates.
+    :return:
+    """
+    r = rng.uniform(0, 1)
+    index = 0
+    cumulative_probability = sum(probabilities[:index+1])
+    while r > cumulative_probability:
+        index += 1
+        cumulative_probability = sum(probabilities[:index+1])
+    return variates[index]

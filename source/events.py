@@ -7,7 +7,7 @@
 from typing import Union
 
 # Custom Imports
-from source.constants import ARRIVAL, DEPARTURE, END
+from source.constants import ARRIVAL, DEPARTURE, END, ALQ, EL, EW
 
 
 class Event:
@@ -36,7 +36,7 @@ class Event:
         if self.time == other.time:
             if self.type == END:
                 return False
-            return self.type == ARRIVAL
+            return self.type == ALQ
         return self.time < other.time
 
     def __eq__(self, other: "Event") -> bool:
@@ -51,7 +51,7 @@ class Event:
         """
         :return: String with the format "(<Event Abbreviation>, <Event Time>)".
         """
-        return f"(type={self.type[0]}, time={self.time}, " \
+        return f"(type={self.type}, time={self.time}, " \
                f"entity={self.entity}, id={self.id})"
 
 
@@ -83,6 +83,24 @@ class Departure(Event):
         super().__init__(id, entity, time)
         self.type = DEPARTURE
         self.arrival_time = arrival_time
+
+
+class ArrivalLoadingQueue(Event):
+    def __init__(self, id: int = None, time: Union[int, float] = 0):
+        super().__init__(id, time=time)
+        self.type = ALQ
+
+
+class EndLoading(Event):
+    def __init__(self, id: int = None, time: Union[int, float] = 0):
+        super().__init__(id, time=time)
+        self.type = EL
+
+
+class EndWeighing(Event):
+    def __init__(self, id: int = None, time: Union[int, float] = 0):
+        super().__init__(id, time=time)
+        self.type = EW
 
 
 class End(Event):

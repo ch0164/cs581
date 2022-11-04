@@ -1,0 +1,1103 @@
+Multi-queue, multi-server - Dump Truck Operation
+trial= 1
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.3958
+		Scale utilization                            0.9750
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 2
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.3479
+		Scale utilization                            0.9792
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 3
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.4292
+		Scale utilization                            0.9583
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 4
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.4125
+		Scale utilization                            0.9792
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 5
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.4062
+		Scale utilization                            0.9750
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 6
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.3750
+		Scale utilization                            0.9792
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 7
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.3958
+		Scale utilization                            0.9750
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 8
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.4208
+		Scale utilization                            0.9583
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 9
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.4313
+		Scale utilization                            0.9583
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 10
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.4083
+		Scale utilization                            0.9542
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 11
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.4146
+		Scale utilization                            0.9292
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 12
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.4167
+		Scale utilization                            0.9500
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 13
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.3646
+		Scale utilization                            0.9792
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 14
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.4083
+		Scale utilization                            0.9750
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 15
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.3750
+		Scale utilization                            0.9792
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 16
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.4500
+		Scale utilization                            0.9542
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 17
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.3854
+		Scale utilization                            0.9667
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 18
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.3458
+		Scale utilization                            0.9542
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 19
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.2917
+		Scale utilization                            0.9542
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 20
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.3750
+		Scale utilization                            0.9750
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 21
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.3438
+		Scale utilization                            0.9542
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 22
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.4604
+		Scale utilization                            0.9542
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 23
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.4604
+		Scale utilization                            0.9583
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 24
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.3771
+		Scale utilization                            0.9375
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 25
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.3563
+		Scale utilization                            0.9333
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 26
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.4604
+		Scale utilization                            0.9750
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 27
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.4271
+		Scale utilization                            0.9417
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 28
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.3521
+		Scale utilization                            0.9750
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 29
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.4167
+		Scale utilization                            0.9792
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 30
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.4896
+		Scale utilization                            0.9792
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 31
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.4667
+		Scale utilization                            0.9583
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 32
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.4208
+		Scale utilization                            0.9583
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 33
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.4167
+		Scale utilization                            0.9750
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 34
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.4062
+		Scale utilization                            0.9583
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 35
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.4021
+		Scale utilization                            0.9792
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 36
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.4354
+		Scale utilization                            0.9542
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 37
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.4375
+		Scale utilization                            0.9500
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 38
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.4188
+		Scale utilization                            0.9583
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 39
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.3125
+		Scale utilization                            0.9750
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 40
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.3750
+		Scale utilization                            0.9375
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 41
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.3438
+		Scale utilization                            0.9542
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 42
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.4062
+		Scale utilization                            0.9750
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 43
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.3854
+		Scale utilization                            0.9583
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 44
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.3542
+		Scale utilization                            0.9750
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 45
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.3854
+		Scale utilization                            0.9542
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 46
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.4062
+		Scale utilization                            0.9792
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 47
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.4500
+		Scale utilization                            0.9583
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 48
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.3688
+		Scale utilization                            0.9750
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 49
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.4125
+		Scale utilization                            0.9583
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 50
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.4708
+		Scale utilization                            0.9750
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 51
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.4375
+		Scale utilization                            0.9750
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 52
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.4313
+		Scale utilization                            0.9792
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 53
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.3438
+		Scale utilization                            0.9583
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 54
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.3021
+		Scale utilization                            0.9708
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 55
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.3479
+		Scale utilization                            0.9792
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 56
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.4479
+		Scale utilization                            0.9542
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 57
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.4375
+		Scale utilization                            0.9750
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 58
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.3750
+		Scale utilization                            0.9792
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 59
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.3646
+		Scale utilization                            0.9750
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 60
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.4208
+		Scale utilization                            0.9792
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 61
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.4479
+		Scale utilization                            0.9750
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 62
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.4271
+		Scale utilization                            0.9792
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 63
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.3958
+		Scale utilization                            0.9583
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 64
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.4771
+		Scale utilization                            0.9250
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 65
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.3750
+		Scale utilization                            0.9583
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 66
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.3250
+		Scale utilization                            0.9333
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 67
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.4583
+		Scale utilization                            0.9583
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 68
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.4021
+		Scale utilization                            0.9500
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 69
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.3875
+		Scale utilization                            0.9500
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 70
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.3646
+		Scale utilization                            0.9583
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 71
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.3354
+		Scale utilization                            0.9583
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 72
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.4271
+		Scale utilization                            0.9000
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 73
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.3500
+		Scale utilization                            0.9750
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 74
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.4271
+		Scale utilization                            0.9542
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 75
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.4792
+		Scale utilization                            0.9750
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 76
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.3958
+		Scale utilization                            0.9333
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 77
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.4146
+		Scale utilization                            0.9583
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 78
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.4313
+		Scale utilization                            0.9625
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 79
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.4062
+		Scale utilization                            0.9750
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 80
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.4167
+		Scale utilization                            0.9583
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 81
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.3812
+		Scale utilization                            0.9083
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 82
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.3750
+		Scale utilization                            0.9792
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 83
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.4521
+		Scale utilization                            0.9583
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 84
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.3896
+		Scale utilization                            0.9333
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 85
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.3896
+		Scale utilization                            0.9583
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 86
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.4271
+		Scale utilization                            0.9792
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 87
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.4729
+		Scale utilization                            0.9000
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 88
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.3646
+		Scale utilization                            0.9750
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 89
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.4271
+		Scale utilization                            0.9583
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 90
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.4000
+		Scale utilization                            0.9750
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 91
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.3625
+		Scale utilization                            0.9500
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 92
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.3854
+		Scale utilization                            0.9583
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 93
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.4062
+		Scale utilization                            0.9542
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 94
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.3771
+		Scale utilization                            0.9792
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 95
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.3854
+		Scale utilization                            0.9792
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 96
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.4188
+		Scale utilization                            0.9708
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 97
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.3875
+		Scale utilization                            0.9667
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 98
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.4271
+		Scale utilization                            0.9750
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 99
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.4000
+		Scale utilization                            0.9583
+
+Multi-queue, multi-server - Dump Truck Operation
+trial= 100
+	Execution parameters
+		Scenario                                     2 Notional
+		Simulation run length                        240 minutes
+		Number trucks                                8
+
+	Calculated statistics
+		Loader utilization                           0.4396
+		Scale utilization                            0.9375
+
+Dump Truck Operation, scenario= 2 trials= 100
+	Mean loader utilization= 0.4019
+	Mean scale utilization= 0.9614
