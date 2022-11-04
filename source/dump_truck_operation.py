@@ -55,11 +55,11 @@ def dump_truck_operation(trial: int,
 
     def get_travel_count() -> int:
         """
-        Calculate the number of trucks travelling in the system.
-        :return: The number of trucks travelling in the system.
+        Calculate the number of trucks travelling outside the system.
+        :return: The number of trucks travelling outside the system.
         """
-        return truck_count - \
-               (state["LQ"] + state["L"] + state["WQ"] + state["W"])
+        trucks_in_system = state["LQ"] + state["L"] + state["WQ"] + state["W"]
+        return truck_count - trucks_in_system
 
     def handle_alq_event(dump_truck_index: int) -> None:
         """
@@ -152,7 +152,7 @@ def dump_truck_operation(trial: int,
     fel.insert_with_priority(End(time=end_time))
 
     # Enter the main loop of the simulation.
-    previous_event = ArrivalLoadingQueue(id=truck_count, time=truck_count - 1)
+    previous_event = ArrivalLoadingQueue(id=truck_count, time=0)
     while True:
         current_event = fel.get_next()
 
