@@ -14,6 +14,15 @@ ROOT_DIRECTORY = os.path.abspath(os.path.join(SOURCE_DIRECTORY, os.pardir)) + \
                  "/"
 OUTPUT_DIRECTORY = ROOT_DIRECTORY + "output/"
 
+# CFA Directories
+CFA_DIRECTORY = ROOT_DIRECTORY + "cv_cfa/"
+CFA_DATA = CFA_DIRECTORY + "data/"
+CFA_FIGURE_DIRECTORY = CFA_DIRECTORY + "figures/"
+
+# CFA Data Files
+CFA_TIMESTAMPS_FILE = CFA_DATA + "cv_cfa_timestamps.csv"
+CFA_STATISTICS_FILE = CFA_DATA + "cv_cfa_statistics.csv"
+
 # ------------------------------------------------------------------------------
 # Event Constants
 # ------------------------------------------------------------------------------
@@ -43,6 +52,17 @@ ALLOW_TRANSFERS = "ALLOW"
 PROHIBIT_TRANSFERS = "PROHIBIT"
 FIRST_CLASS = "FIRST_CLASS"
 ECONOMY_CLASS = "ECONOMY"
+
+# Charger Village CFA
+STATISTICS_HEADERS = [
+    "interarrival_time",
+    "response_rate",
+    "cashier_service_time",
+    "counter_service_time",
+    "food_delay",
+    "drink_delay",
+    "enter_queue_delay",
+]
 
 # ------------------------------------------------------------------------------
 # Heap Implementation Constants
